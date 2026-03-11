@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-11T19:54:42.440575",
+  "total_alerts": 44,
+  "unique_src_ips": 35,
+  "blocked_ips": [
+    "8.42.77.171",
+    "37.49.231.178",
+    "80.211.246.121",
+    "92.63.194.33"
+  ],
+  "virustotal_results": [
+    {
+      "ip": "8.42.77.171",
+      "malicious": 0,
+      "country": "US"
+    },
+    {
+      "ip": "37.49.231.178",
+      "malicious": 0,
+      "country": "FR"
+    },
+    {
+      "ip": "80.211.246.121",
+      "malicious": 0,
+      "country": "PL"
+    },
+    {
+      "ip": "92.63.194.33",
+      "malicious": 0,
+      "country": "RU"
+    }
+  ],
+  "notifications": [
+    "[BLOCK] IP 8.42.77.171 заблокирован (7 алертов)",
+    "[BLOCK] IP 37.49.231.178 заблокирован (2 алертов)",
+    "[BLOCK] IP 80.211.246.121 заблокирован (2 алертов)",
+    "[BLOCK] IP 92.63.194.33 заблокирован (2 алертов)"
+  ],
+  "top_signatures": {
+    "ET DROP Dshield Block Listed Source group 1": 2,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 36": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 45": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 49": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 56": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 57": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 62": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 67": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP UDP group 67": 1,
+    "ET CINS Active Threat Intelligence Poor Reputation IP TCP group 73": 1
+  },
+  "top_src_ips": {
+    "8.42.77.171": 7,
+    "37.49.231.178": 2,
+    "80.211.246.121": 2,
+    "92.63.194.33": 2,
+    "80.211.172.233": 1,
+    "61.219.11.151": 1,
+    "66.240.236.119": 1,
+    "71.6.232.4": 1,
+    "71.6.199.23": 1,
+    "78.128.112.98": 1
+  }
+}
